@@ -12,7 +12,7 @@ jobs:
   MacOS-Build:
 
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         os : [ macos-latest, ubuntu-24.04 ]
         build_type : [ Release, Debug ]
